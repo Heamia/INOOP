@@ -1,0 +1,49 @@
+#include "stdafx.h"
+
+//gemaakt met de hulp van Lisa Perelaer (game dev, jaar 2)
+int main()
+{
+	class User {
+		//dit is de gebruiker
+		string login;
+		string password;
+	};
+	
+	class Teacher : public User {
+		//class voor de leraar
+		string name;
+	};
+
+	class Lessonhour {
+		//variabelen voor lessen
+		string lessonName;
+		Teacher teacherName;
+		string locationName;
+		int classroomNumber;
+		int beginTimeHour;
+		int beginTimeMinutes;
+		int endTimeHour;
+		int endTimeMinutes;
+
+		//operations
+		void setLesson() {
+			//variabele van de les
+		}
+
+		void deleteLesson() {
+			//verwijder de les (als die is afgelopen)
+		}
+	};
+
+	class TimeTable {
+		int period[52]; //52 weken in een jaar
+		Lessonhour lessons[];
+
+		//operations
+		void setPeriod() {
+			//bepaal de week en laat de lessen zien in die week
+		}
+	};
+
+	return 0;
+}
