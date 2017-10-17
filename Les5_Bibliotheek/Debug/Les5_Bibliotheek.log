@@ -1,0 +1,3 @@
+﻿Bibliotheek.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall Bibliotheek::~Bibliotheek(void)" (??1Bibliotheek@@UAE@XZ) referenced in function "public: virtual void * __thiscall Bibliotheek::`scalar deleting destructor'(unsigned int)" (??_GBibliotheek@@UAEPAXI@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall Bibliotheek::~Bibliotheek(void)" (??1Bibliotheek@@UAE@XZ)
+c:\users\bastiaanse\documents\visual studio 2017\Projects\Les5_Bibliotheek\Debug\Les5_Bibliotheek.exe : fatal error LNK1120: 1 unresolved externals
